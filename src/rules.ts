@@ -5,6 +5,7 @@ const baseRules = [
     `GEOIP,private,DIRECT,no-resolve`,
     `RULE-SET,ADBlock,${PROXY_GROUPS.AD_BLOCK}`,
     `RULE-SET,AdditionalFilter,${PROXY_GROUPS.AD_BLOCK}`,
+    `RULE-SET,CustomProxy,${PROXY_GROUPS.SELECT}`,
     `RULE-SET,SogouInput,${PROXY_GROUPS.SOGOU_INPUT}`,
     `DOMAIN-SUFFIX,truthsocial.com,${PROXY_GROUPS.TRUTH_SOCIAL}`,
     `RULE-SET,StaticResources,${PROXY_GROUPS.STATIC_RESOURCES}`,
@@ -28,7 +29,6 @@ const baseRules = [
     `RULE-SET,EHentai,${PROXY_GROUPS.EHENTAI}`,
     `RULE-SET,TikTok,${PROXY_GROUPS.TIKTOK}`,
     `RULE-SET,SteamFix,DIRECT`,
-    `RULE-SET,PlayStationFix,DIRECT`,
     `RULE-SET,GoogleFCM,DIRECT`,
     `GEOSITE,google-play@cn,DIRECT`,
     `GEOSITE,microsoft@cn,DIRECT`,
@@ -38,6 +38,7 @@ const baseRules = [
     `RULE-SET,Crypto,${PROXY_GROUPS.CRYPTO}`,
     `RULE-SET,GFWList,${PROXY_GROUPS.SELECT}`,
     `GEOIP,cn,DIRECT`,
+    `RULE-SET,CustomDirect,DIRECT`,
     `MATCH,${PROXY_GROUPS.FINAL}`,
 ];
 
