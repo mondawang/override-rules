@@ -58,6 +58,14 @@ export const ruleProviders: Record<string, RuleProvider> = {
         url: `${CDN_URL}/gh/powerfullz/override-rules@master/ruleset/SteamFix.list`,
         path: "./ruleset/SteamFix.list",
     },
+    PlayStationFix: {
+        type: "http",
+        behavior: "classical",
+        format: "text",
+        interval: 86400,
+        url: `${CDN_URL}/gh/mondawang/override-rules@master/ruleset/PlaystationFix.list`,
+        path: "./ruleset/PlaystationFix.list",
+    },
     GoogleFCM: {
         type: "http",
         behavior: "classical",
