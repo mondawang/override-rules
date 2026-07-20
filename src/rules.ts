@@ -28,6 +28,7 @@ const baseRules = [
     `RULE-SET,EHentai,${PROXY_GROUPS.EHENTAI}`,
     `RULE-SET,TikTok,${PROXY_GROUPS.TIKTOK}`,
     `RULE-SET,SteamFix,DIRECT`,
+    `RULE-SET,PlayStationFix,DIRECT`,
     `RULE-SET,GoogleFCM,DIRECT`,
     `GEOSITE,google-play@cn,DIRECT`,
     `GEOSITE,microsoft@cn,DIRECT`,
