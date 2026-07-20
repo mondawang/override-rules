@@ -1,0 +1,10 @@
+# Proxy
+DOMAIN-SUFFIX,mitce.net
+DOMAIN-SUFFIX,bixiny.com
+DOMAIN-SUFFIX,api.ipify.org
+
+# Tokyo Disney
+DOMAIN-SUFFIX,tokyodisneyresort.jp
+
+# CloudFlare
+IP-CIDR,1.0.0.1/32,no-resolve
