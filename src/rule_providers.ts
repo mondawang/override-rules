@@ -58,14 +58,6 @@ export const ruleProviders: Record<string, RuleProvider> = {
         url: `${CDN_URL}/gh/powerfullz/override-rules@master/ruleset/SteamFix.list`,
         path: "./ruleset/SteamFix.list",
     },
-    PlayStationFix: {
-        type: "http",
-        behavior: "classical",
-        format: "text",
-        interval: 86400,
-        url: `${CDN_URL}/gh/mondawang/override-rules@master/ruleset/PlaystationFix.list`,
-        path: "./ruleset/PlaystationFix.list",
-    },
     GoogleFCM: {
         type: "http",
         behavior: "classical",
@@ -113,5 +105,21 @@ export const ruleProviders: Record<string, RuleProvider> = {
         interval: 86400,
         url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt",
         path: "./ruleset/GFWList.yaml",
+    },
+    CustomDirect: {
+        type: "http",
+        behavior: "classical",
+        format: "text",
+        interval: 86400,
+        url: `${CDN_URL}/gh/mondawang/override-rules@master/ruleset/CustomDirect.list`,
+        path: "./ruleset/CustomDirect.list",
+    },
+    CustomProxy: {
+        type: "http",
+        behavior: "classical",
+        format: "text",
+        interval: 86400,
+        url: `${CDN_URL}/gh/mondawang/override-rules@master/ruleset/CustomProxy.list`,
+        path: "./ruleset/CustomProxy.list",
     },
 };
